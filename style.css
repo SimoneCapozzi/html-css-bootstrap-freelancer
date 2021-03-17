@@ -1,0 +1,42 @@
+.debug [class*="col-"]{
+  min-height: 100px;
+}
+
+.color-acqua{
+  background-color: aqua;
+}
+
+.color-nav{
+  background-color: #2C3E50;
+}
+
+.box-1{
+  height: 500px;
+  background-color: #1ABC9C;
+}
+
+.box-s{
+  height: 200px;
+  background-color: aquamarine;
+}
+
+.portfolio [class*="col-"]{
+  background-color: bisque;
+  border: 1px solid black;
+}
+
+.sc-about{
+  background-color: #1abc9c;
+}
+
+.sc-location{
+  background-color: #3a546d;
+}
+
+.text-white{
+  color: white;
+}
+
+.sc-footer{
+  background-color: #2C3E50;
+}
