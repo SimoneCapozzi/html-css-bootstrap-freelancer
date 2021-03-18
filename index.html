@@ -1,128 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Bootstrap 101 Template</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-csale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
 
-    <!-- Bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<body>
 
-  <body>
-    <div class="container-fluid debug">
-      <!-- nav -->
-      <div class="row color-nav">
-        <div class="color-acqua col-xs-6 text-center">
-          <span class="text-uppercase">start bootstrap</span>
-        </div>
-        <div class="col-xs-offset-4 col-xs-2 color-acqua"></div>
-      </div>
-      <!-- fine-nav -->
-      <!-- jumbotron -->
-      <div class="row">
-        <div class="col-xs-12 box-1"></div>
-      </div>
-      <!-- fine-jumbotron -->
-      <!-- portfolio -->
-      <div class="row portfolio">
-        <div class="col-xs-12 box-s">
-          <h1>portfolio</h1>
-        </div>
-        <!-- img -->
-        <div class="col-xs-12 col-sm-6 col-lg-4"></div>
-        <div class="col-xs-12 col-sm-6 col-lg-4"></div>
-        <div class="col-xs-12 col-sm-6 col-lg-4"></div>
-        <div class="col-xs-12 col-sm-6 col-lg-4"></div>
-        <div class="col-xs-12 col-sm-6 col-lg-4"></div>
-        <div class="col-xs-12 col-sm-6 col-lg-4"></div>
-        <!-- fine-img -->
-      </div>
-      <!-- fine-portfolio -->
-      <!-- about -->
-      <div class="row sc-about">
-        <div class="col-xs-12">
-          <h1 class="text-center">about</h1>
-        </div>
-        <div class="col-xs-12 col-sm-6">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed ad
-            sint aliquid adipisci odit? Accusantium vitae assumenda dicta fugiat
-            itaque dignissimos minus soluta sequi, est deserunt illum facilis
-            iusto voluptates?
-          </p>
-        </div>
-        <div class="col-xs-12 col-sm-6">
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Consequuntur unde error veritatis tempore, dolorum quidem placeat
-            numquam perspiciatis dolorem fugit? Delectus aperiam quos labore
-            neque voluptatibus. Laborum at soluta necessitatibus?
-          </p>
-        </div>
-        <div class="col-xs-12 text-center">
-          <button></button>
-        </div>
-      </div>
-      <!-- fine-about -->
+  <!-- header -->
+  <header>
 
-      <!-- contact-me -->
-      <div class="row">
-        <div class="col-xs-12">
-          <h1 class="text-center">contact me</h1>
-        </div>
-        <div class="col-xs-12">
-          <span>name</span>
-        </div>
-        <div class="col-xs-12">
-          <span>email address</span>
-        </div>
-        <div class="col-xs-12">
-          <span>phone number</span>
-        </div>
-        <div class="col-xs-12">
-          <span>message</span>
-        </div>
-        <div class="col-xs-12">
-          <button></button>
-        </div>
-      </div>
-      <!-- fine-contact-me -->
-      <!-- location -->
-      <div class="row sc-location text-white text-center">
-        <div class="col-xs-12 col-md-4">location</div>
-        <div class="col-xs-12 col-md-4">around the web</div>
-        <div class="col-xs-12 col-md-4">about freelancer</div>
-      </div>
-      <!-- fine-location -->
-      <!-- footer -->
-      <div class="row sc-footer">
-        <div class="text-center col-xs-12">
-          <span class="text-white">copyright</span>
+    <div class="cs-header-top">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6">
+            <span class="text-white text-uppercase">start bootstrap</span>
+          </div>
+          <div class="col-xs-6 hidden-xs text-righte">
+            <ul class="link nav navbar-nav navbar-right">
+              <li><a href="#">portfolio</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="visible-xs">
+            <div class="col-xs-6 text-right">
+              <div class="visible-xs"><span class="glyphicon glyphicon-menu-hamburger"></span></div>
+            </div>
+          </div>
         </div>
       </div>
 
     </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script
+    <div class="cs-header-bottom cs-bg-green cs-padding-80">
+
+      <div class="cs-jumbotrone">
+        <img class="img-avatar img-responsive" src="img/avatar.svg" alt="avatar">
+        <p class="text-white text-uppercase cs-padding-30 text-center">start bootstrap</p>
+        <div class="linea"></div>
+        <p class="text-white text-uppercase text-center">graphic artist - web designer - illustrator</p>
+      </div>
+
+    </div>
+
+  </header>
+  <!-- /header -->
+
+  <!-- main -->
+  <main>
+
+    <!-- portfolio -->
+    <section id="porfolio" class="cs-padding-50">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center margin-bottom-20">
+            <h2 class="text-uppercase">portfolio</h2>
+            <p>riga boh</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="cs-box">
+              <img class="img-main img-responsive img-rounded" src="img/cabin.png" alt="cabin">
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="cs-box">
+              <img class="img-main img-responsive img-rounded" src="img/cake.png" alt="cake">
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="cs-box">
+              <img class="img-main img-responsive img-rounded" src="img/circus.png" alt="circus">
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="cs-box">
+              <img class="img-main img-responsive img-rounded" src="img/game.png" alt="game">
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="cs-box">
+              <img class="img-main img-responsive img-rounded" src="img/safe.png" alt="safe">
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="cs-box">
+              <img class="img-main img-responsive img-rounded" src="img/submarine.png" alt="submarine">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- /portfolio -->
+
+    <!-- about -->
+    <section id="about" class="cs-padding-80 cs-bg-green">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center margin-bottom-20">
+            <h2 class="text-white text-uppercase text-center">about</h2>
+            <p>riga boh</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cs-wrapper-60">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 text-white cs-padding-b30">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization stylesheets for easy customization.</div>
+            <div class="col-xs-12 col-sm-6 text-white cs-padding-b30">Whether you're studentlooking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <button type="button" class="btn-color text-white btn btn-default">Default</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /about -->
+
+    <!-- contact -->
+    <section id="contact" class="cs-padding-80">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center margin-bottom-20">
+            <h2>contact</h2>
+            <p>riga boh</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cs-wrapper-60">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 cs-padding-0">
+              <input class="cs-input" type="text" placeholder="Name">
+            </div>
+            <hr class="cs-hr">
+            <div class="col-xs-12 cs-padding-0">
+              <input class="cs-input" type="text" placeholder="Email Address">
+            </div>
+            <hr class="cs-hr">
+            <div class="col-xs-12 cs-padding-0">
+              <input class="cs-input" type="text" placeholder="Phone Number">
+            </div>
+            <hr class="cs-hr">
+            <div class="col-xs-12 cs-padding-0">
+              <textarea class="cs-textarea" name="testo" id="" cols="30" rows="10" placeholder="Message">
+              </textarea>
+              <hr class="cs-hr">
+            </div>
+            <div class="col-xs-12 text-left cs-padding-30">
+              <button type="button" class="btn-color text-white btn btn-default">Send</button>
+            </div>
+          </div>
+                
+
+        </div>
+      </div>
+
+    </section>
+    <!-- /contact -->
+
+  </main>
+  <!-- /main -->
+
+  <!-- footer -->
+  <footer>
+
+    <div class="cs-footer-top cs-padding-80">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-center text-white">
+            <h2 class="text-uppercase">location</h2>
+            <p>2215 John Danile Drive Clark,</p>
+            <p>MO 54243</p>
+          </div>
+          <div class="col-md-4 text-center text-white">
+            <h2 class="text-uppercase">around the web</h2>
+            <ul>
+              <li class="icone">
+                <a href="#"><i class="white fab fa-facebook-f"></i></a>
+                <a href="#"><i class="white fab fa-instagram"></i></a>
+                <a href="#"><i class="white fab fa-youtube"></i></a>
+                <a href="#"><i class="white fab fa-twitter"></i></a>
+                <a href="#"><i class="white fab fa-linkedin-in"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 text-center text-white">
+            <h2 class="text-uppercase">about freelancer</h2>
+            <p>Frrelance is a free to use, open sourc Bootsstrap theme created by Start Bootstrap.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cs-footer-bottom rb-padding-30">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <p class="text-white">copyright</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- /footer -->
+
+    <!-- jQuery (necessary for Bootstrap's Javacsript plugins) -->
+    <csript
       src="https://code.jquery.com/jquery-1.12.4.min.js"
       integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
       crossorigin="anonymous"
-    ></script>
+    ></csript>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script
+    <csript
       src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
       integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
       crossorigin="anonymous"
-    ></script>
+    ></csript>
   </body>
 </html>
